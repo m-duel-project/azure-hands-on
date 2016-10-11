@@ -1,4 +1,4 @@
-# azure-handson
+# m-duel-project / azure-hands-on
 이 repo는 2016년 10월 12~14일간 예정된 m-duel 프로젝트에 대한 코드와 hands on 자료를 제공  
 
 ## Azure Machine Learning
