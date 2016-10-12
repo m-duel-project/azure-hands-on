@@ -9,19 +9,19 @@
 왼쪽 메뉴바의 **Experiments** 선택 후 하단 **Add**버튼 클릭.
 그 후 아래와 같이 모델 구성.
 
-![ml model graph](https://github.com/m-duel-project/azure-hands-on/docs/images/azure_ml_model_nodes.png)
+![ml model graph](images/azure_ml_model_nodes.png)
 
 필요한 노드는 검색해서 찾는게 빠름.
 
 *Selected Columns in Dataset*의 노드를 선택 후 우측 프로퍼티 패널에서 *Launch column selector*로 컬럼 셀렉터 창을 열고, 아래와 같이 컬럼들을 선택함.
-![ml model column selection](https://github.com/m-duel-project/azure-hands-on/docs/images/azure_ml_selected_columns.png)
+![ml model column selection](images/azure_ml_selected_columns.png)
 
 하단 **Save**버튼 클릭, **Run**버튼 클릭하여 모델 실행.
 모든 노드에 초록색 체크사인 확인 후 마지막 노드의 아웃풋에 **우클릭 > Visualize**
-![ml visualize context menu](https://github.com/m-duel-project/azure-hands-on/docs/images/azure_ml_visualize_context_menu.png)
+![ml visualize context menu](images/azure_ml_visualize_context_menu.png)
 
 데이터 가시화 패널을 통해 학습된 데이터의 스코어링 결과를 얻을 수 있음.
-![ml visualize window](https://github.com/m-duel-project/azure-hands-on/docs/images/azure_ml_visualize_window.png)
+![ml visualize window](images/azure_ml_visualize_window.png)
 
 ## 예측모델 및 웹서비스 생성
 하단 메뉴바의 **Set up web service** 호버링하여 **Predictive web service** 선택.
@@ -31,7 +31,7 @@
 
 다시 **Run**한 후, **Deploy web service**을 클릭.
 약간의 시간이 걸린 후, 다음과 같은 웹서비스 탭이 생성됨.
-![deployed web service](https://github.com/m-duel-project/azure-hands-on/docs/images/azure_ml_web_service.png)
+![deployed web service](images/azure_ml_web_service.png)
 
 **Test**버튼을 눌러 간단하게 테스트 가능함.
 
